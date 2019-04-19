@@ -15,7 +15,7 @@ For this specific code, we use 4 volumes as input:
 
 3) RHOB or bulk density volume (in SEGY format)
 
-4) A useful attribute
+4) A useful attribute (in SEGY format)
 
 The method that is used for this approach is KMeans. KMeans is not a robust algorithm in clustering, but it is very fast compared to other techniques. The speed of clustering algorithm is very important for seismic-related machine learning projects (because of size of seismic data). 
 
